@@ -13,6 +13,7 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.io.IOException;
+import java.text.ParseException;
 import javax.sound.sampled.Clip;
 import javax.sound.sampled.UnsupportedAudioFileException;
 import javax.sound.sampled.AudioInputStream;
@@ -24,14 +25,14 @@ public class SnakeFrame extends JFrame {
     
 
     
-    public SnakeFrame() throws UnsupportedAudioFileException, IOException{
+    public SnakeFrame() throws UnsupportedAudioFileException, IOException, ParseException{
         initSnake();
     }
     
-    private void initSnake() throws UnsupportedAudioFileException, IOException{
+    private void initSnake() throws UnsupportedAudioFileException, IOException, ParseException{
         
         setLayout(new BorderLayout());
-        add(new ScoreBoard(), BorderLayout.NORTH);
+        
         add(new SnakeBoard(), BorderLayout.CENTER);
 
         setResizable(false);

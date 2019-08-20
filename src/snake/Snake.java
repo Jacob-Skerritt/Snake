@@ -7,6 +7,7 @@ package snake;
 
 import java.awt.EventQueue;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.sound.sampled.UnsupportedAudioFileException;
@@ -28,7 +29,7 @@ public class Snake {
                    try {
                        snake = new SnakeFrame();
                        snake.setVisible(true);
-                   } catch (UnsupportedAudioFileException | IOException ex) {
+                   } catch (UnsupportedAudioFileException | IOException | ParseException ex) {
                        Logger.getLogger(Snake.class.getName()).log(Level.SEVERE, null, ex);
                    }
             
