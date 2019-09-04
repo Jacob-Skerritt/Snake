@@ -1,1 +1,1 @@
-{"topTenUser":[{"fdkgjskgj;skfgjskg;skjgf;lsd":0},{"N/A":0},{"fdkgjskgj;skfgjskg;skjgf;lsd":2},{"N/A":0},{"N/A":0},{"N/A":0},{"N/A":0},{"N/A":0},{"N/A":0},{"N/A":0}],"nickname":"N/Asdfgsdgf"}
+{"topTenUser":[{"score":12,"nickname":"Bobby"},{"score":9,"nickname":"N/A"},{"score":8,"nickname":"N/A"},{"score":8,"nickname":"Bobby"},{"score":7,"nickname":"N/A"},{"score":7,"nickname":"Bobby"},{"score":7,"nickname":"Bobby"},{"score":5,"nickname":"N/A"},{"score":5,"nickname":"Bobby"},{"score":5,"nickname":"Bobby"}],"nickname":"Dfglkjhljh"}
