@@ -1,8 +1,7 @@
 # Snake
-2-D snake game, coded using Java.
+2-D snake game, created using Java Swing.
 
-A traditional snake game created using java swing.
-
+A simple Snake game expanded upon and developed into a full application with Menu system, HighScores, Nickname and additional game mechanics.
 ## Features:
 - Fully navigable menu system with several core features.
   - Local Nickname creation
